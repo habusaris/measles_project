@@ -1,7 +1,10 @@
-boolean landscape = false,portaits = false;//WARNING:if landscape is false,then protrait must be true
-void  displayOrientation(){
-  //display oriantation algorithm,see Hello World copy
-  landscape = true;//hardcoded for now
-}//end displa orintation
+
+Boolean landscape=false, portrait=false;
 //
-//end display oriantation subprogram
+void displayOrientation() {
+  //Diplay Orientation Algorithm, see Hello World to copy
+  landscape = true; //Harcoded for now
+  //
+}//End displayOrientation
+//
+//End Display and Orientation Subprogram

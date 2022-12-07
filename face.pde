@@ -1,14 +1,12 @@
-float rectfaceX,rectfaceY,rectfacewidth,rectfaceheight;
-float faceX,faceY,faceDiameter;
+
+float rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight;
+float faceX, faceY, faceDiameter;
 //
-void facesetup(){
-  eyes();//student created
-  nose();//student created
-  mouth();//student created
-  measlesdynamic();//teacher lesson
-//inscribing a circle in a square (i.e logical rectangle)
-rect(rectfaceX,rectfaceY,rectfacewidth,rectfaceheight);//logical rectangle
-ellipse(faceX,faceY,faceDiameter,faceDiameter);
-}//end facesetup
+void faceSetup() {
+  //Face: inscribing a cirlcle in a square (i.e. logical rectangle)
+  //Start from center of display
+  rect(rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight);
+
+} //End faceSetup
 //
-//end face sub program
+//End Face Subprogram
